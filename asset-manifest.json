@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ReactMedicalApp/static/css/main.92a4b108.css",
+    "main.js": "/ReactMedicalApp/static/js/main.3eba4f2a.js",
+    "static/js/488.4f81ee33.chunk.js": "/ReactMedicalApp/static/js/488.4f81ee33.chunk.js",
+    "static/media/herorightfullimg.png": "/ReactMedicalApp/static/media/herorightfullimg.dc9c5fe62a31e9384590.png",
+    "static/media/contactleftimg.png": "/ReactMedicalApp/static/media/contactleftimg.25ac5cd562fae37ce64f.png",
+    "static/media/doctorteam1.png": "/ReactMedicalApp/static/media/doctorteam1.b404cc7678e8a9521835.png",
+    "static/media/doctorteam3.png": "/ReactMedicalApp/static/media/doctorteam3.1d1a13bd8fa9b137f9b2.png",
+    "static/media/doctorteam2.png": "/ReactMedicalApp/static/media/doctorteam2.14a16da23c2417e07822.png",
+    "static/media/latesblogimg3.jpg": "/ReactMedicalApp/static/media/latesblogimg3.1f0428e8e673246b88c1.jpg",
+    "static/media/latesblogimg2.jpg": "/ReactMedicalApp/static/media/latesblogimg2.d1147e1a20d5d27943b8.jpg",
+    "static/media/testimonialleftimg.png": "/ReactMedicalApp/static/media/testimonialleftimg.f15a02ace4bcc6c33afb.png",
+    "static/media/specialcaseimg2.png": "/ReactMedicalApp/static/media/specialcaseimg2.8f6292f5e6e9bf3a97e8.png",
+    "static/media/specialcaseimg1.png": "/ReactMedicalApp/static/media/specialcaseimg1.291a1a41a2692c28832c.png",
+    "static/media/serviceleftimg.png": "/ReactMedicalApp/static/media/serviceleftimg.432ca60f7aec8fed8beb.png",
+    "static/media/latesblogimg1.jpg": "/ReactMedicalApp/static/media/latesblogimg1.e649c8d8a23898f34a1f.jpg",
+    "static/media/aboutrightimg.jpg": "/ReactMedicalApp/static/media/aboutrightimg.beeeafd535cc7d710168.jpg",
+    "static/media/banner-bg.jpg": "/ReactMedicalApp/static/media/banner-bg.66e87cd44c20925d4b69.jpg",
+    "static/media/subscribefullimg.jpg": "/ReactMedicalApp/static/media/subscribefullimg.ffb1767ad08259c5dec6.jpg",
+    "static/media/aboutleftimg.png": "/ReactMedicalApp/static/media/aboutleftimg.3e0d13d9ed9e000bbd13.png",
+    "static/media/servicetraetcard3.png": "/ReactMedicalApp/static/media/servicetraetcard3.f5b5f53176537e87cdab.png",
+    "static/media/servicetraetcard1.png": "/ReactMedicalApp/static/media/servicetraetcard1.16a7fd4486dc2f2ee7db.png",
+    "static/media/servicetraetcard2.png": "/ReactMedicalApp/static/media/servicetraetcard2.3f32bb3bd243f910c38c.png",
+    "static/media/doctorteambg.jpg": "/ReactMedicalApp/static/media/doctorteambg.7caba9233381264c56ef.jpg",
+    "static/media/whychooseusbg.jpg": "/ReactMedicalApp/static/media/whychooseusbg.5d38ead25c4e5969b207.jpg",
+    "static/media/testi-bg.jpg": "/ReactMedicalApp/static/media/testi-bg.4a1b5ce501831167c73e.jpg",
+    "static/media/heroheartrotate.png": "/ReactMedicalApp/static/media/heroheartrotate.b541e164ae383d202140.png",
+    "index.html": "/ReactMedicalApp/index.html",
+    "main.92a4b108.css.map": "/ReactMedicalApp/static/css/main.92a4b108.css.map",
+    "main.3eba4f2a.js.map": "/ReactMedicalApp/static/js/main.3eba4f2a.js.map",
+    "488.4f81ee33.chunk.js.map": "/ReactMedicalApp/static/js/488.4f81ee33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92a4b108.css",
+    "static/js/main.3eba4f2a.js"
+  ]
+}
