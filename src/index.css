@@ -507,7 +507,7 @@ p {
 .special-services-treat-right-body-content ul li {
   display: block;
   padding: 0 0 3px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 34px;
   color: #ffffffb8;
   font-weight: 400;
@@ -862,7 +862,15 @@ color: rgb(97, 97, 97);
 
 @media Only Screen and (max-width: 767px) {
 
-
+h6 {
+    font-size: 12px;
+}
+ h2{
+  font-size: 22px !important;
+ }
+ h3{
+  font-size: 21px !important;
+ }
 
 
   /*  */
