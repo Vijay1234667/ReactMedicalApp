@@ -1,20 +1,19 @@
 import React from "react";
-import Navbar from "./Component/Navbar";
-import BannerWrapper from "./Component/BannerWrapper";
-import ScheduleAppointment from "./Component/ScheduleAppointment";
-import MediketAbout from "./Component/MediketAbout";
-import ServiceProvide from "./Component/ServiceProvide ";
-import WhyChooseUs from "./Component/WhyChooseUs";
-import SpecialServicesTreat from "./Component/SpecialServicesTreat";
-import DoctorsTeam from "./Component/DoctorsTeam";
-import PrimaryBgContainer from "./Component/PrimaryBgContainer";
-import AppointmentForm from "./Component/AppointmentForm";
-import Testimonals from "./Component/Testimonals";
-import LatesBlog from "./Component/LatesBlog";
-import MeetDoctors from "./Component/MeetDoctors";
-import Footer from "./Component/Footer";
+import Navbar from "./layouts/Navbar";
+import BannerWrapper from "./pages/BannerWrapper";
+import ScheduleAppointment from "./pages/ScheduleAppointment";
+import MediketAbout from "./pages/MediketAbout";
+import ServiceProvide from "./pages/ServiceProvide ";
+import WhyChooseUs from "./pages/WhyChooseUs";
+import SpecialServicesTreat from "./pages/SpecialServicesTreat";
+import DoctorsTeam from "./pages/DoctorsTeam";
+import PrimaryBgContainer from "./pages/PrimaryBgContainer";
+import AppointmentForm from "./utils/AppointmentForm";
+import Testimonals from "./pages/Testimonals";
+import LatesBlog from "./pages/LatesBlog";
+import MeetDoctors from "./pages/MeetDoctors";
+import Footer from "../src/layouts/Footer";
 import TopToBottom from "./Component/TopToBottom";
-
 
 const App = () => {
   return (

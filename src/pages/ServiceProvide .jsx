@@ -2,12 +2,12 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
-import serviceleftimg from "../assets/serviceleftimg.png"
-import ServicesTreatmentCard from './ServicesTreatmentCard';
+import serviceleftimg from "../assets/images/serviceleftimg.png"
+import ServicesTreatmentCard from '../Component/ServicesTreatmentCard';
 
-import servicetraetcard1 from "../assets/servicetraetcard1.png"
-import servicetraetcard2 from "../assets/servicetraetcard2.png"
-import servicetraetcard3 from "../assets/servicetraetcard3.png"
+import servicetraetcard1 from "../assets/images/servicetraetcard1.png"
+import servicetraetcard2 from "../assets/images/servicetraetcard2.png"
+import servicetraetcard3 from "../assets/images/servicetraetcard3.png"
 
 
 
@@ -29,7 +29,7 @@ const ServiceProvide = () => {
                                     <a href="/" className='btn'>All Services<span><ArrowOutwardIcon className='fs-5' /></span></a>
                                 </div>
                                 <div>
-                                    <img className='img-fluid' src={serviceleftimg} alt="" />
+                                    <img className='img-fluid' src={serviceleftimg} alt="serviceleftimg" />
                                 </div>
                             </div>
                         </Col>

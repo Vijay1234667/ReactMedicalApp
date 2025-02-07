@@ -4,10 +4,10 @@ import { Col, Container, Row } from 'react-bootstrap'
 // All Icons
 import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import AlltypeSocialicon from './AlltypeSocialicon';
+import AlltypeSocialicon from '../Component/AlltypeSocialicon';
 
 // All Images
-import logo from '../assets/logo.png'
+import logo from '../assets/images/logo.png'
 
 const Footer = () => {
     return (

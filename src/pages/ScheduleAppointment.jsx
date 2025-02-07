@@ -2,8 +2,8 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
 
-import finddoctor3img from '../assets/finddoctor3img.png'
-import darkcalllogo from '../assets/darkcalllogo.png'
+import finddoctor3img from '../assets/images/finddoctor3img.png'
+import darkcalllogo from '../assets/images/darkcalllogo.png'
 
 import AvTimerIcon from '@mui/icons-material/AvTimer';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
@@ -52,7 +52,7 @@ const ScheduleAppointment = () => {
                     <span><SupportAgentIcon className='fs-2 text-white' /></span>
                   </li>
                   <li className='mb-4'>
-                    <img src={finddoctor3img} alt="" />
+                    <img src={finddoctor3img} alt="finddoctor3img" />
                   </li>
                   <li className='mb-5'>
                     <p className='text-white'>High Expert</p>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-
-import contactleftimg from '../assets/contactleftimg.png'
+// images
+import contactleftimg from '../assets/images/contactleftimg.png'
 
 const AppointmentForm = () => {
     return (
@@ -11,7 +11,7 @@ const AppointmentForm = () => {
                     <Row>
                         <Col md={6} className=" mb-3 mb-md-0">
                             <div>
-                                <img className='img-fluid' src={contactleftimg} alt="" />
+                                <img className='img-fluid' src={contactleftimg} alt="contactleftimg" />
                             </div>
                         </Col>
                         <Col md={6} >
@@ -24,37 +24,47 @@ const AppointmentForm = () => {
                                     <div className="row">
                                         <Col md={6} lg={6}>
                                             <div className="form-box">
-                                                <input type="text" id="fullName" name="fullname" placeholder="Full Name *" required="" />
+                                                <input type="text" id="fullName" name="fullname" placeholder="Full Name *" required />
                                             </div>
                                         </Col>
                                         <Col md={6} lg={6}>
                                             <div className="form-box">
-                                                <input type="email" className="form-control" id="emailAddress" name="emailaddress" placeholder="Email Address *" required="" />
+                                                <input type="email" id="emailAddress" name="emailaddress" placeholder="Email Address *" required />
                                             </div>
                                         </Col>
                                         <Col md={6} lg={6}>
                                             <div className="form-box">
-                                                <input type="text" className="form-control" id="phoneNumber" name="phonenumber" placeholder="Phone Number" />
+                                                <input type="text" id="phoneNumber" name="phonenumber" placeholder="Phone Number" required />
                                             </div>
                                         </Col>
 
                                         <Col md={6} lg={6}>
                                             <div className="form-box">
-                                                <input type="date" className="form-control" id="appointmentDate" name="appointment_date" placeholder="Appointment Date" />
+                                                <input type="date" id="appointmentDate" name="appointment_date" placeholder="Appointment Date" required />
                                             </div>
                                         </Col>
                                         <Col md={6} lg={6} className="mb-3 mb-md-0">
                                             <div className="form-box">
-                                                <select id="service_id" className="form-select" name="service_id" placeholder="Select Treatments">
-                                                    <option selected="" disabled="">Select Treatments</option>
-                                                    <option value="574">Endocrinology</option><option value="570">Surgery</option><option value="566">Orthopedics</option><option value="562">Hematology</option><option value="558">Angioplasty</option><option value="556">Dental Care</option>
+                                                <select id="treatments_name" className="form-select" name="treatments_name"
+                                                    placeholder="Select Treatments">
+                                                    <option  disabled="">Select Treatments</option>
+                                                    <option value="surgeon">Surgeon</option>
+                                                    <option value="hypertantion">hypertantion</option>
+                                                    <option value="Hematology">Hematology</option>
+                                                    <option value="Orthopedics">Orthopedics</option>
+                                                    <option value="Angioplasty">Angioplasty</option>
                                                 </select>
                                             </div>
                                         </Col>
                                         <Col md={6} lg={6} className="mb-3">
                                             <div className="form-box">
-                                                <select id="doctor" className="form-select" name="member_id" placeholder="Select Doctors">
-                                                    <option value="">Select Doctor</option>
+                                                <select id="doctor_name" className="form-select" name="doctor_name"
+                                                    placeholder="Select Doctors">
+                                                    <option  disabled="">Select Doctor</option>
+                                                    <option value="A">A</option>
+                                                    <option value="B">B</option>
+                                                    <option value="C">C</option>
+                                                    <option value="D">D</option>
                                                 </select>
                                             </div>
                                         </Col>

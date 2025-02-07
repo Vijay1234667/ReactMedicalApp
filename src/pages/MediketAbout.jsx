@@ -1,10 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import aboutleftimg from '../assets/aboutleftimg.png'
-import aboutrightimg from '../assets/aboutrightimg.jpg'
+import aboutleftimg from '../assets/images/aboutleftimg.png'
+import aboutrightimg from '../assets/images/aboutrightimg.jpg'
 
 import CheckIcon from '@mui/icons-material/Check';
-import SamePrimaryBtn from './SamePrimaryBtn';
+import SamePrimaryBtn from '../Component/SamePrimaryBtn';
 
 const MediketAbout = () => {
     return (

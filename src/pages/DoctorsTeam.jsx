@@ -1,12 +1,12 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-import doctorteam1 from "../assets/doctorteam1.png"
-import doctorteam2 from "../assets/doctorteam2.png"
-import doctorteam3 from "../assets/doctorteam3.png"
+import doctorteam1 from "../assets/images/doctorteam1.png"
+import doctorteam2 from "../assets/images/doctorteam2.png"
+import doctorteam3 from "../assets/images/doctorteam3.png"
 
-import TeamCard from './TeamCard';
-import SamePrimaryBtn from './SamePrimaryBtn';
+import TeamCard from '../Component/TeamCard';
+import SamePrimaryBtn from '../Component/SamePrimaryBtn';
 
 const DoctorsTeam = () => {
     return (

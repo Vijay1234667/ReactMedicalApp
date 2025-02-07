@@ -91,7 +91,7 @@ p {
   content: "";
   left: -19px;
   top: 2px;
-  background: url(../src/assets/bluesmallheart.png);
+  background: url(../src/assets/images/bluesmallheart.png);
   height: 15px;
   width: 15px;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@ p {
 
 /* BannerWrapper-Section */
 .BannerWrapper-Section {
-  background: url(../src/assets/banner-bg.jpg)no-repeat bottom/cover;
+  background: url(../src/assets/images/banner-bg.jpg)no-repeat bottom/cover;
 }
 
 .wood-animation {
@@ -440,7 +440,7 @@ p {
 /* why-choose-us-section */
 .why-choose-us-section {
   padding: 50px 0px 30px;
-  background: url(./assets/whychooseusbg.jpg);
+  background: url(./assets/images/whychooseusbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -479,7 +479,7 @@ p {
   transition: 0.5s;
 }
 .whychoose-right-card {
-  background: url(../src/assets/whychooserightboximg.png);
+  background: url(../src/assets/images/whychooserightboximg.png);
   background-repeat: repeat;
   background-size: cover;
   background-position: center center;
@@ -570,7 +570,7 @@ p {
 /* all-doctors-team-section */
 .all-doctors-team-section {
   padding: 60px 0px 90px;
-  background: url(../src/assets/doctorteambg.jpg);
+  background: url(../src/assets/images/doctorteambg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 750px;
@@ -615,7 +615,7 @@ p {
 
 .primary-bgcontainer {
   background: linear-gradient(rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)),
-    url(../src/assets/subscribefullimg.jpg);
+    url(../src/assets/images/subscribefullimg.jpg);
   padding: 20px 0px 20px;
 }
 .primary-bgcontainer h3 {
@@ -674,7 +674,7 @@ p {
 }
 /*  testimonals-section */
 .testimonals-section {
-  background: url(../src/assets/testi-bg.jpg);
+  background: url(../src/assets/images/testi-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0px 20px;
@@ -755,7 +755,6 @@ color: rgb(97, 97, 97);
   background-color: #ffffff;
 }
 
-
 .meet-doctor-container h3 {
   color: #041c33;
 }
@@ -825,8 +824,58 @@ color: rgb(97, 97, 97);
 .TopToBottom a{
   color: #ffffff;
 }
+/* swiper */
+
+.special-services-treat-section{
+  position: relative;
+}
+
+.special-services-treat-section .swiper-button-next, .swiper-button-prev{
+  background-color: #041c33;
+  padding: 30px;
+  color: #fff !important;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  font-size: 19px !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+  font-size: 19px !important;
+}
+
+.special-services-treat-section .swiper-button-next{
+  position: absolute;
+  top: 70% !important;
+  left: 61% !important;
+  z-index: 2;
+  
+}
+.special-services-treat-section .swiper-button-prev{
+  position: absolute;
+  top: 70% !important;
+  left: 55% !important;
+}
+.swiper-initialized{
+  position: static !important;
+}
 
 @media Only Screen and (max-width: 767px) {
+
+
+
+
+  /*  */
+
+
+  .special-services-treat-section .swiper-button-next, .swiper-button-prev{
+    display: none;
+  }
+  .special-services-treat-section .swiper-button-prev{
+    display: none;
+  }
+
+  
   .heart-rotate-main-body h6:before{
     display: none;
   }
@@ -937,7 +986,7 @@ color: rgb(97, 97, 97);
 
 .primary-bgcontainer {
   background: linear-gradient(rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)),
-    url(../src/assets/subscribefullimg.jpg);
+    url(../src/assets/images/subscribefullimg.jpg);
   padding: 20px 0px 20px;
 }
   /* appointment-form-section */

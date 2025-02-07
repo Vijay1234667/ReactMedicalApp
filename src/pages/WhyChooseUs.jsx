@@ -1,12 +1,12 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import WhyChooseBottomBox from './WhyChooseBottomBox'
-import chooseicon1 from "../assets/chooseicon1.png"
-import chooseicon2 from "../assets/chooseicon2.png"
-import chooseicon3 from "../assets/chooseicon3.png"
-import choosestar from '../assets/choosestar.png'
+import WhyChooseBottomBox from '../Component/WhyChooseBottomBox'
+import chooseicon1 from "../assets/images/chooseicon1.png"
+import chooseicon2 from "../assets/images/chooseicon2.png"
+import chooseicon3 from "../assets/images/chooseicon3.png"
+import choosestar from '../assets/images/choosestar.png'
 
-import SamePrimaryBtn from './SamePrimaryBtn'
+import SamePrimaryBtn from '../Component/SamePrimaryBtn'
 
 const WhyChooseUs = () => {
     return (
@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
                         <div className='card whychoose-right-card'>
                             <div className="card-body">
                                 <div className='mb-4'>
-                                    <img className='img-fluid' src={choosestar} alt="" />
+                                    <img className='img-fluid' src={choosestar} alt="choosestar" />
                                 </div>
                                 <div>
                                     <h4>Being Your Journey with Mediket

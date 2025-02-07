@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from "../assets/logo.png"
+import logo from "../assets/images/logo.png"
 import MenuIcon from '@mui/icons-material/Menu';
 
 
@@ -12,7 +12,7 @@ const Navigation = () => {
         <>
             <Navbar className='navbar-section fixed-top' expand="md">
                 <Container>
-                    <Navbar.Brand href="#"><img src={logo} alt="" /></Navbar.Brand>
+                    <Navbar.Brand href="#"><img src={logo} alt="logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse className='navtogglebtn' id="navbarScroll">
                         <Nav
@@ -72,10 +72,10 @@ const Navigation = () => {
                         <div className="header-button">
                             <a href="/">
                                 Book Appointment  
-                                <div class="mediket-hover-btn hover-btn"></div>
-                                <div class="mediket-hover-btn hover-btn2"></div>
-                                <div class="mediket-hover-btn hover-btn3"></div>
-                                <div class="mediket-hover-btn hover-btn4"></div>
+                                <div className="mediket-hover-btn hover-btn"></div>
+                                <div className="mediket-hover-btn hover-btn2"></div>
+                                <div className="mediket-hover-btn hover-btn3"></div>
+                                <div className="mediket-hover-btn hover-btn4"></div>
                             </a>
                           <div className='NavMenu'>
                           <MenuIcon className='NavMenu-icon p-2'/>

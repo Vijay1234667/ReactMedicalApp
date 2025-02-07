@@ -1,9 +1,16 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import specialcaseimg1 from '../assets/specialcaseimg1.png'
-import specialcaseimg2 from '../assets/specialcaseimg2.png'
-import countericon from '../assets/countericon.png'
+import specialcaseimg1 from '../assets/images/specialcaseimg1.png'
+import specialcaseimg2 from '../assets/images/specialcaseimg2.png'
+import countericon from '../assets/images/countericon.png'
 import CheckIcon from '@mui/icons-material/Check';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination, Navigation } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
 
 
 const SpecialServicesTreat = () => {
@@ -12,9 +19,30 @@ const SpecialServicesTreat = () => {
             <Container>
                 <Row>
                     <Col md={6}>
-                        <Row>
-                            <Col md={6} className=" mb-4 mb-md-0">
-                                <div className='special-services-treat-left-content'>
+                        <Swiper
+                            slidesPerView={2}
+                            loop={true}
+                            
+                            navigation={true}
+                            modules={[Pagination, Navigation]}
+                            className="text-center"
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1,
+                                },
+                                576: {
+                                    slidesPerView: 1,
+                                },
+                                768: {
+                                    slidesPerView: 1,
+                                },
+                                1024: {
+                                    slidesPerView: 2,
+                                },
+                            }}
+                        >
+                            <SwiperSlide className='mb-4'>
+                                <div className='special-services-treat-left-content ms-3'>
                                     <div className='top-img'>
                                         <img className='img-fluid' src={specialcaseimg1} alt="specialcaseimg1" />
                                     </div>
@@ -25,11 +53,11 @@ const SpecialServicesTreat = () => {
                                         <h4 className='mb-4'>Nuro Sergery</h4>
                                     </div>
                                 </div>
-                            </Col>
-                            <Col md={6} className=" mb-4 mb-md-0">
-                                <div className='special-services-treat-left-content'>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='special-services-treat-left-content ms-3'>
                                     <div className='top-img'>
-                                        <img className='img-fluid' src={specialcaseimg2} alt="" />
+                                        <img className='img-fluid' src={specialcaseimg2} alt="specialcaseimg1" />
                                     </div>
                                     <div className='special-img-content'>
                                         <div className='img-over-btn'>
@@ -38,8 +66,23 @@ const SpecialServicesTreat = () => {
                                         <h4 className='mb-4'>Nuro Sergery</h4>
                                     </div>
                                 </div>
-                            </Col>
-                        </Row>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='special-services-treat-left-content ms-3'>
+                                    <div className='top-img'>
+                                        <img className='img-fluid' src={specialcaseimg1} alt="specialcaseimg1" />
+                                    </div>
+                                    <div className='special-img-content'>
+                                        <div className='img-over-btn'>
+                                            <a href="/" className='btn mb-3'>Nurology</a>
+                                        </div>
+                                        <h4 className='mb-4'>Nuro Sergery</h4>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+
+
+                        </Swiper>
                     </Col>
                     <Col md={6}>
                         <div className='special-services-treat-right-body-content heart-rotate-main-body'>
@@ -61,7 +104,7 @@ const SpecialServicesTreat = () => {
 
                             <div className='success-card d-none d-md-block'>
                                 <div className='mb-3'>
-                                    <img className='img-fluid' src={countericon} alt="" />
+                                    <img className='img-fluid' src={countericon} alt="countericon" />
                                 </div>
                                 <h3>12+</h3>
                                 <p>Satisfied Patients</p>

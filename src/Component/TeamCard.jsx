@@ -14,7 +14,7 @@ const TeamCard = ({Image, DoctorName,Treatments}) => {
             <Col md={4} className='mb-4 mb-md-0'>
                 <div className=" team-single-box card">
                     <div className='img-thumb mb-3'>
-                        <img className='img-fluid rounded-circle' src={Image} alt="" />
+                        <img className='img-fluid rounded-circle' src={Image} alt="drimage" />
                     </div>
                     <div className='mb-3'>
                         <h4 className='mb-2'>{DoctorName}</h4>

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 // images
-import latesblogimg1 from '../assets/latesblogimg1.jpg'
-import latesblogimg2 from '../assets/latesblogimg2.jpg'
-import latesblogimg3 from '../assets/latesblogimg3.jpg'
+import latesblogimg1 from '../assets/images/latesblogimg1.jpg'
+import latesblogimg2 from '../assets/images/latesblogimg2.jpg'
+import latesblogimg3 from '../assets/images/latesblogimg3.jpg'
 // Icons
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import SamePrimaryBtn from './SamePrimaryBtn'
+import SamePrimaryBtn from '../Component/SamePrimaryBtn'
 
 
 const LatesBlog = () => {

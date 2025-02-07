@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 // Icons
-import countericon1 from "../assets/countericon1.png"
+import countericon1 from "../assets//images/countericon1.png"
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 
