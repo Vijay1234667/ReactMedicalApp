@@ -18,7 +18,7 @@ const MediketAbout = () => {
                                 <h2 className='mb-2 mb-md-5'>Delivering Quality
                                     Health?s Care for
                                     Generations</h2>
-                                <div className='mb-3 mb-md-5'>
+                                <div className='mb-3 mb-md-5' data-aos="fade-up-right">
                                     <img className='img-fluid' src={aboutleftimg} alt="aboutleftimg" />
                                 </div>
                                <SamePrimaryBtn BtnName="Read more"/>
@@ -50,7 +50,7 @@ const MediketAbout = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col md={4}>
+                        <Col md={4} data-aos="fade-left">
                             <img className='img-fluid right-img' src={aboutrightimg} alt="aboutleftimg" />
                         </Col>
                     </Row>

@@ -17,7 +17,7 @@ const ScheduleAppointment = () => {
       <section className='ScheduleAppointment-section'>
         <Container>
           <Row>
-            <Col className=" h-100 mb-3 mb-md-0">
+            <Col className=" h-100 mb-3 mb-md-0" data-aos="fade-up-right">
               <div className="card schedule-appointment-card-body">
                 <ul>
                   <li className='d-flex Schedule-head  align-items-center justify-content-between mb-4 py-3'>
@@ -44,7 +44,7 @@ const ScheduleAppointment = () => {
               </div>
             </Col>
 
-            <Col className=" h-100 mb-3 mb-md-0">
+            <Col className=" h-100 mb-3 mb-md-0" data-aos="fade-down">
               <div className="card schedule-appointment-card-body find-doctors-card">
                 <ul>
                   <li className='d-flex Schedule-head  align-items-center justify-content-between mb-4 py-3'>
@@ -64,7 +64,7 @@ const ScheduleAppointment = () => {
                 </ul>
               </div>
             </Col>
-            <Col className=" h-100">
+            <Col className=" h-100" data-aos="fade-left">
               <div className="card schedule-appointment-card-body appoinment-card">
                 <ul>
                   <li className='d-flex Schedule-head  align-items-center justify-content-between mb-4 py-3'>

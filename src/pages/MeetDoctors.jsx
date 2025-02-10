@@ -82,7 +82,7 @@ const MeetDoctors = () => {
                                 <img src={featuredbrand4} alt="featuredbrand4" />
                             </div>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide className='mb-4'>
                             <div>
                                 <img src={featuredbrand4} alt="featuredbrand4" />
                             </div>

@@ -749,6 +749,23 @@ color: rgb(97, 97, 97);
   z-index: 1;
 }
 
+.lates-blog-section .page-link{
+  background-color: #041c33;
+  color: #ffffff;
+  padding: 9px 20px;
+  outline: none;
+  box-shadow: none;
+}
+
+.lates-blog-section .blog-pagination button{
+  background-color: #041c33;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 9px 16px;
+  margin-left: 2px;
+  border: 0;
+}
+
 /* meet-doctor-container */
 .meet-doctor-container {
   padding: 70px 0px 70px;

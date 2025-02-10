@@ -35,13 +35,13 @@ const ServiceProvide = () => {
                         </Col>
                         <Col md={6}>
                             <ul className='p-0'>
-                                <li className='mb-3'>
+                                <li className='mb-3'  data-aos="zoom-in-up">
                                     <ServicesTreatmentCard image={servicetraetcard1} TreatName="Endocrinology" TreatText="Add Your Heading Text Here  Alternative innovation to ethical network environmental whiteboard" TreatBtn="Read More" />
                                 </li>
-                                <li className='mb-3'>
+                                <li className='mb-3' data-aos="fade-down-right">
                                     <ServicesTreatmentCard image={servicetraetcard2} TreatName="Surgery" TreatText="Add Your Heading Text Here  Alternative innovation to ethical network environmental whiteboard" TreatBtn="Read More" />
                                 </li>
-                                <li>
+                                <li data-aos="flip-up">
                                     <ServicesTreatmentCard image={servicetraetcard3} TreatName="Orthopedics" TreatText="Add Your Heading Text Here  Alternative innovation to ethical network environmental whiteboard" TreatBtn="Read More" />
                                 </li>
                             </ul>

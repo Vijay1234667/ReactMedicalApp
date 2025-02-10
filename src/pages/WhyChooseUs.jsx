@@ -23,16 +23,16 @@ const WhyChooseUs = () => {
                             </p>
                         </div>
                         <Row>
-                            <Col md={6} className=" mb-2 mb-md-4">
+                            <Col md={6} className=" mb-2 mb-md-4"data-aos="flip-left">
                                 <WhyChooseBottomBox Image={chooseicon1} BottomBoxName="Idustry Experience" BottomBoxText="Completely enable covalent function and market positioning infomediarie exceptional upply" />
                             </Col>
-                            <Col className=" mb-2 mb-md-4">
+                            <Col className=" mb-2 mb-md-4"data-aos="flip-right">
                                 <WhyChooseBottomBox Image={chooseicon2} BottomBoxName="Medichine Expert" BottomBoxText="Completely enable covalent function and market positioning infomediarie exceptional upply" />
                             </Col>
-                            <Col className=" mb-2 mb-md-4">
+                            <Col className=" mb-2 mb-md-4"data-aos="flip-right">
                                 <WhyChooseBottomBox Image={chooseicon3} BottomBoxName="Disease Analysis" BottomBoxText="Completely enable covalent function and market positioning infomediarie exceptional upply" />
                             </Col>
-                            <Col className=" mb-md-4">
+                            <Col className=" mb-md-4"data-aos="flip-left">
                                 <WhyChooseBottomBox Image={chooseicon3} BottomBoxName="Customer Focus" BottomBoxText="Completely enable covalent function and market positioning infomediarie exceptional upply" />
                             </Col>
                         </Row>

@@ -1,15 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import Data from "../Data.json";
 // images
-import latesblogimg1 from '../assets/images/latesblogimg1.jpg'
-import latesblogimg2 from '../assets/images/latesblogimg2.jpg'
-import latesblogimg3 from '../assets/images/latesblogimg3.jpg'
+
 // Icons
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import SamePrimaryBtn from '../Component/SamePrimaryBtn'
-
+import SamePrimaryBtn from '../Component/SamePrimaryBtn';
 
 const LatesBlog = () => {
+
+    const [currentPage, setCurrentPage] = useState(1);
+    const recordPerPage = 6;
+
+    const lastIndex = currentPage * recordPerPage;
+    const firstIndex = lastIndex - recordPerPage;
+    const record = Data.slice(firstIndex, lastIndex);
+    const npage = Math.ceil(Data.length / recordPerPage);
+    const numbers = [...Array(npage + 1).keys()].slice(1);
+
+    
+
+    const prevPage = () => {
+        if (currentPage !== 1) {
+            setCurrentPage(currentPage - 1);
+        }
+    };
+
+    const nextPage = () => {
+        if (currentPage !== npage) {
+            setCurrentPage(currentPage + 1);
+        }
+    };
+
+    const changePage = (n) => {
+        setCurrentPage(n);
+    };
+
+    let base_url = process.env.REACT_APP_BASE_URL;
+    let public_url = process.env.PUBLIC_URL;
+
+
     return (
         <>
             <section className='lates-blog-section'>
@@ -23,69 +53,59 @@ const LatesBlog = () => {
                             </div>
                         </Col>
                         <Col md={2} className="view-all-btn">
-                         <SamePrimaryBtn BtnName="View All Blogs"/>
+                            <SamePrimaryBtn BtnName="View All Blogs" />
                         </Col>
                     </Row>
                     <Row>
-                        <Col md={4}>
-                            <div className="card mb-2 mb-md-4">
-                                <div>
-                                    <img className='img-fluid' src={latesblogimg1} alt="latesblogimg1" />
-                                </div>
-                                <div className='blog-bottom-bg-success d-flex justify-content-around align-items-center'>
-                                    <p>Uncategorized</p>
-                                    <p>BY-SITEADMIN</p>
-                                </div>
-                            </div>
-                            <ul>
-                                <li className='mb-3 mb-md-4'>
-                                    <h4>How to Protect Your Eyes Essential Dermatology</h4>
-                                </li>
-                                <li>
-                                    <a href="/" className='btn blog-read-more-btn'>Read More <ArrowOutwardIcon className='fs-5' /></a>
-                                </li>
-                            </ul>
-                        </Col>
 
-                        <Col md={4}>
-                            <div className="card mb-2 mb-md-4">
-                                <div>
-                                    <img className='img-fluid' src={latesblogimg2} alt="latesblogimg1" />
-                                </div>
-                                <div className='blog-bottom-bg-success d-flex justify-content-around align-items-center'>
-                                    <p>Uncategorized</p>
-                                    <p>BY-SITEADMIN</p>
-                                </div>
-                            </div>
-                            <ul>
-                                <li className='mb-2 mb-md-4'>
-                                    <h4>How to Protect Your Eyes Essential Dermatology</h4>
-                                </li>
-                                <li>
-                                    <a href="/" className='btn blog-read-more-btn'>Read More <ArrowOutwardIcon className='fs-5' /></a>
-                                </li>
-                            </ul>
-                        </Col>
-                        <Col md={4}>
-                        <div className="card mb-2 mb-md-4">
-                                <div>
-                                    <img className='img-fluid' src={latesblogimg3} alt="latesblogimg1" />
-                                </div>
-                                <div className='blog-bottom-bg-success d-flex justify-content-around align-items-center'>
-                                    <p>Uncategorized</p>
-                                    <p>BY-SITEADMIN</p>
-                                </div>
-                            </div>
-                            <ul>
-                            <li className='mb-2 mb-md-4'>
-                                    <h4>How to Protect Your Eyes Essential Dermatology</h4>
-                                </li>
-                                <li>
-                                    <a href="/" className='btn blog-read-more-btn'>Read More <ArrowOutwardIcon className='fs-5' /></a>
-                                </li>
-                            </ul>
-                        </Col>
+                        {
+                            record.map((Blogdata, i) => (
+                                <Col md={4} key={i}>
+                                    <div className="card mb-2 mb-md-4">
+                                        <div>
+                                        <img className='img-fluid' src={`${base_url}${public_url}${Blogdata.BlogImage}`} alt="latesblogimg1" />
+                                        </div>
+                                        <div className='blog-bottom-bg-success d-flex justify-content-around align-items-center'>
+                                            <p>{Blogdata.BlogTextLeft}</p>
+                                            <p>{Blogdata.BlogTextRight}</p>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li className='mb-3 mb-md-4'>
+                                            <h4>{Blogdata.BlogTitle}</h4>
+                                        </li>
+                                        <li>
+                                            <a href="/" className='btn blog-read-more-btn'>Read More<ArrowOutwardIcon className='fs-5' /></a>
+                                        </li>
+                                    </ul>
+                                </Col>
+                            ))
+                        }
                     </Row>
+
+
+
+                    <ul className="blog-pagination pagination justify-content-end">
+                        <li>
+                            <button onClick={prevPage} disabled={currentPage === 1}>
+                                Prev
+                            </button>
+                        </li>
+
+                        {numbers.map((n, i) => (
+                            <li key={i}>
+                                <button onClick={() => changePage(n)}>{n}</button>
+                            </li>
+                        ))}
+                        <li>
+                            <button onClick={nextPage} disabled={currentPage === npage}>
+                                Next
+                            </button>
+                        </li>
+                    </ul>
+
+
+
                 </Container>
             </section>
         </>
