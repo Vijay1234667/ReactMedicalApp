@@ -13,11 +13,11 @@ const WhyChooseUs = () => {
         <section className='why-choose-us-section'>
             <Container>
                 <Row>
-                    <Col md={8} className="col-md-8">
+                    <Col xl={8} lg={12} md={12}>
                         <div className='why-choose-left-body-content heart-rotate-main-body'>
                             <h6 className='mb-3'>Why Choose Us</h6>
                             <h3 className=' mb-3 mb-md-5'>Advanced Treatments
-                                <span className='d-md-block'>Compassionate Care</span></h3>
+                                <span className='d-block'>Compassionate Care</span></h3>
                             <p className='border-bottom border-2 pb-2 pb-md-4'>
                                 Completely e-enable covalent functionalities and market positioning infomediaries. Interactively initiate exceptional
                             </p>
@@ -26,19 +26,19 @@ const WhyChooseUs = () => {
                             <Col md={6} className=" mb-2 mb-md-4"data-aos="flip-left">
                                 <WhyChooseBottomBox Image={chooseicon1} BottomBoxName="Idustry Experience" BottomBoxText="Completely enable covalent function and market positioning infomediarie exceptional upply" />
                             </Col>
-                            <Col className=" mb-2 mb-md-4"data-aos="flip-right">
+                            <Col md={6} className=" mb-2 mb-md-4"data-aos="flip-right">
                                 <WhyChooseBottomBox Image={chooseicon2} BottomBoxName="Medichine Expert" BottomBoxText="Completely enable covalent function and market positioning infomediarie exceptional upply" />
                             </Col>
-                            <Col className=" mb-2 mb-md-4"data-aos="flip-right">
+                            <Col md={6} className=" mb-2 mb-md-4"data-aos="flip-right">
                                 <WhyChooseBottomBox Image={chooseicon3} BottomBoxName="Disease Analysis" BottomBoxText="Completely enable covalent function and market positioning infomediarie exceptional upply" />
                             </Col>
-                            <Col className=" mb-md-4"data-aos="flip-left">
+                            <Col md={6} className=" mb-md-4"data-aos="flip-left">
                                 <WhyChooseBottomBox Image={chooseicon3} BottomBoxName="Customer Focus" BottomBoxText="Completely enable covalent function and market positioning infomediarie exceptional upply" />
                             </Col>
                         </Row>
                     </Col>
 
-                    <Col md={4}>
+                    <Col md={12} lg={12} xl={4}>
                         <div className='card whychoose-right-card'>
                             <div className="card-body">
                                 <div className='mb-4'>

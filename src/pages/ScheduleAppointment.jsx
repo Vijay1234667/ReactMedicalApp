@@ -10,15 +10,14 @@ import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
-
 const ScheduleAppointment = () => {
   return (
     <>
       <section className='ScheduleAppointment-section'>
         <Container>
           <Row>
-            <Col className=" h-100 mb-3 mb-md-0" data-aos="fade-up-right">
-              <div className="card schedule-appointment-card-body">
+            <Col lg={4} md={6} className=" mb-3 mb-md-3">
+              <div className="card h-100 schedule-appointment-card-body">
                 <ul>
                   <li className='d-flex Schedule-head  align-items-center justify-content-between mb-4 py-3'>
                     <h6>Schedule Hours</h6>
@@ -43,9 +42,8 @@ const ScheduleAppointment = () => {
                 </ul>
               </div>
             </Col>
-
-            <Col className=" h-100 mb-3 mb-md-0" data-aos="fade-down">
-              <div className="card schedule-appointment-card-body find-doctors-card">
+            <Col lg={4} md={6} className=" mb-3 mb-md-3">
+              <div className="card  h-100  schedule-appointment-card-body find-doctors-card">
                 <ul>
                   <li className='d-flex Schedule-head  align-items-center justify-content-between mb-4 py-3'>
                     <h6>Find Doctors</h6>
@@ -64,8 +62,8 @@ const ScheduleAppointment = () => {
                 </ul>
               </div>
             </Col>
-            <Col className=" h-100" data-aos="fade-left">
-              <div className="card schedule-appointment-card-body appoinment-card">
+            <Col lg={4} md={12} className=" mb-3 mb-md-3">
+              <div className="card  h-100  schedule-appointment-card-body appoinment-card">
                 <ul>
                   <li className='d-flex Schedule-head  align-items-center justify-content-between mb-4 py-3'>
                     <h6 className='text-dark'>Appoinment</h6>

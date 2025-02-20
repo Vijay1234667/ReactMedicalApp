@@ -9,12 +9,12 @@ const AppointmentForm = () => {
             <section className='appointment-form-section'>
                 <Container>
                     <Row>
-                        <Col md={6} className=" mb-3 mb-md-0">
+                        <Col md={12} lg={6} className=" mb-3 mb-md-0">
                             <div>
                                 <img className='img-fluid' src={contactleftimg} alt="contactleftimg" />
                             </div>
                         </Col>
-                        <Col md={6} >
+                        <Col md={12} lg={6}  >
                             <div className="contact-form-box heart-rotate-main-body">
                                 <div className='mb-3 mb-md-0'>
                                     <h6>Appoinment</h6>

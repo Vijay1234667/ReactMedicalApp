@@ -9,7 +9,6 @@ import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import { Pagination, Navigation } from 'swiper/modules';
 
 
@@ -40,6 +39,7 @@ const Testimonals = () => {
                                 <Swiper
                                     slidesPerView={1}
                                     loop={true}
+                                    navigation={true}
                                     pagination={{
                                         clickable: true,
                                     }}

@@ -8,17 +8,14 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import SamePrimaryBtn from '../Component/SamePrimaryBtn';
 
 const LatesBlog = () => {
-
     const [currentPage, setCurrentPage] = useState(1);
     const recordPerPage = 6;
-
+    
     const lastIndex = currentPage * recordPerPage;
     const firstIndex = lastIndex - recordPerPage;
     const record = Data.slice(firstIndex, lastIndex);
     const npage = Math.ceil(Data.length / recordPerPage);
     const numbers = [...Array(npage + 1).keys()].slice(1);
-
-    
 
     const prevPage = () => {
         if (currentPage !== 1) {
@@ -39,7 +36,6 @@ const LatesBlog = () => {
     let base_url = process.env.REACT_APP_BASE_URL;
     let public_url = process.env.PUBLIC_URL;
 
-
     return (
         <>
             <section className='lates-blog-section'>
@@ -56,8 +52,8 @@ const LatesBlog = () => {
                             <SamePrimaryBtn BtnName="View All Blogs" />
                         </Col>
                     </Row>
-                    <Row>
 
+                    <Row>
                         {
                             record.map((Blogdata, i) => (
                                 <Col md={4} key={i}>
@@ -83,8 +79,6 @@ const LatesBlog = () => {
                         }
                     </Row>
 
-
-
                     <ul className="blog-pagination pagination justify-content-end">
                         <li>
                             <button onClick={prevPage} disabled={currentPage === 1}>
@@ -103,8 +97,6 @@ const LatesBlog = () => {
                             </button>
                         </li>
                     </ul>
-
-
 
                 </Container>
             </section>

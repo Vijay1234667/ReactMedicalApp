@@ -5,7 +5,6 @@ import herorightfullimg from '../assets/images/herorightfullimg.png';
 import heroheartrotate from '../assets/images/heroheartrotate.png';
 import herobounceimg from '../assets/images/herobounceimg.png'
 import heroauthorimg from '../assets/images/heroauthorimg.png'
-
 import SamePrimaryBtn from '../Component/SamePrimaryBtn';
 
 

@@ -10,9 +10,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 const Navigation = () => {
     return (
         <>
-            <Navbar className='navbar-section fixed-top' expand="md">
+            <Navbar className='navbar-section fixed-top' expand="lg">
                 <Container>
-                    <Navbar.Brand href="#"><img src={logo} alt="logo" /></Navbar.Brand>
+                    <Navbar.Brand href="#"><img className='img-fluid logo' src={logo} alt="logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse className='navtogglebtn' id="navbarScroll">
                         <Nav

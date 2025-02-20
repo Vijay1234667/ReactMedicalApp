@@ -20,6 +20,15 @@ body {
   font-size: 16px;
   overflow-x: hidden;
   background-color: #041c33;
+
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 a,
 li {
@@ -110,12 +119,10 @@ p {
     transform: rotate3d(0, 1, 0, 359deg);
   }
 }
-
-
-/*  */
 .color-white{
   color: #ffffff;
 }
+
 /* Navbar Section */
 .navbar-section {
   padding: 20px 0px 20px;
@@ -123,8 +130,10 @@ p {
 }
 .navbar-section a {
   color: #fff;
-  margin: 0px 10px;
+  margin-right: 10px;
+  font-size: 14px;
 }
+
 .navbar-section a:hover {
   color: #0495ff;
 }
@@ -137,7 +146,7 @@ p {
 }
 
 .header-button a {
-  padding: 12px 30px;
+  padding: 10px 25px;
   background: #0495ff;
   border-radius: 30px;
   display: inline-block;
@@ -149,7 +158,6 @@ p {
 .header-button a:hover {
   color: #041c33;
 }
-/* Box-hover */
 
 .mediket-hover-btn {
   background-color: #dbe9a1;
@@ -172,7 +180,6 @@ p {
   left: 25%;
   transition-delay: 0.105s;
 }
-
 .hover-btn3 {
   left: 50%;
   transition-delay: 0.105s;
@@ -186,7 +193,6 @@ p {
   opacity: 1;
   transform: scale(1);
 }
-
 .NavMenu {
   color: #fff;
   display: inline-block;
@@ -194,10 +200,9 @@ p {
   border-radius: 30px;
   transition: 0.5s;
 }
-
 .NavMenu .NavMenu-icon {
-  width: 45px;
-  height: 45px;
+  width: 42px;
+  height: 42px;
 }
 
 /* BannerWrapper-Section */
@@ -239,7 +244,7 @@ p {
 .hero-left-bounceimg {
   position: absolute;
   top: 25%;
-  right: -20%;
+  right: 0%;
   z-index: -1;
   animation: herobounceimg 3.5s infinite;
 }
@@ -439,11 +444,11 @@ p {
 }
 /* why-choose-us-section */
 .why-choose-us-section {
-  padding: 50px 0px 30px;
+  padding:20px 0px 30px;
   background: url(./assets/images/whychooseusbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 100%;
   width: 100%;
 }
 
@@ -487,7 +492,6 @@ p {
   padding: 50px 34px 42px;
   border-radius: 10px;
   position: relative;
-  top: 130px;
 }
 .whychoose-right-card p {
   margin: 17px 0 142px;
@@ -497,6 +501,7 @@ p {
 
 .special-services-treat-section {
   padding: 160px 0px 200px;
+  height: 100%;
 }
 
 .special-services-treat-right-body-content h3 {
@@ -563,7 +568,7 @@ p {
 }
 .success-card {
   position: absolute;
-  right: 20%;
+  right: 10%;
   top: 90%;
 }
 
@@ -573,7 +578,7 @@ p {
   background: url(../src/assets/images/doctorteambg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 750px;
+  height: 100%;
   width: 100%;
 }
 .team-single-box h4{
@@ -655,9 +660,9 @@ p {
   color: rgb(255, 255, 255);
   font-weight: 400;
   font-family: "Open Sans";
-  padding: 0px 75px;
+  padding: 0px 35px;
   outline: 0px;
-  border-radius: 28px;
+  border-radius: 8px;
   border-width: 0px;
 }
 
@@ -678,6 +683,21 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0px 20px;
+  position: relative;
+}
+.testimonals-section .swiper-button-prev {
+position: absolute;
+background-color: #0495ff;
+left: 0;
+}
+
+.testimonals-section .swiper-button-next{
+  position: absolute;
+  background-color: #0495ff !important;
+  padding: 30px;
+    color: #fff !important;
+    border-radius: 100%;
+    border: 1px solid white;
 }
 
 .testimonial-carousel-body .card{
@@ -877,6 +897,8 @@ color: rgb(97, 97, 97);
   position: static !important;
 }
 
+
+/*  */
 @media Only Screen and (max-width: 767px) {
 
 h6 {
@@ -891,7 +913,21 @@ h6 {
 
 
   /*  */
-
+  .navbar-section {
+    padding: 11px 0px 7px;
+}
+  .NavMenu{
+    display: none;
+  }
+  .header-button{
+    display: none;
+  }
+  .logo{
+    height: 27px;
+  }
+  .navbar-nav{
+    margin-top: 13px;
+  }
 
   .special-services-treat-section .swiper-button-next, .swiper-button-prev{
     display: none;
@@ -907,7 +943,7 @@ h6 {
   /* BannerWrapper-Section */
 .BannerWrapper-Section {
   padding: 60px 0px 0px;
-  margin-top: 40px !important;
+  margin-top: 28px !important;
 }
 .hero-left-bounceimg {
   top: 25%;
@@ -993,7 +1029,20 @@ h6 {
   font-size: 20px;
   line-height: 30px;
 }
-  /* all-doctors-team-section */
+
+.special-services-treat-left-content .special-img-content {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.top-img img{
+  width: 100%;
+}
+
+/* all-doctors-team-section */
 .all-doctors-team-section {
   padding: 20px 0px 20px;
   height: 100%;
@@ -1071,3 +1120,82 @@ h6 {
 }
 }
 /* 1377 */
+
+@media Only Screen and (min-width: 767px) and (max-width:992px) {
+  h2 {
+    font-size: 29px;
+}
+
+  /* BannerWrapper-Section */
+  .BannerWrapper-Section {
+    padding: 30px 0px 0px;
+    height: 100%;
+    margin-top: 28px !important;
+  }
+  .hero-left-bounceimg {
+    top: 25%;
+    right: -0%;
+  }
+  .banner-left-body-content h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .callus-body h4 {
+    font-size: 11px;
+  }
+
+.ScheduleAppointment-section {
+  padding: 20px 0px 20px;
+  background-color: #ffffff;
+}
+
+
+/* why-choose-us-section */
+.why-choose-us-section {
+  padding: 20px 0px 20px;
+  height: 100%;
+  width: 100%;
+}
+.mediket-chooseus-icon {
+  height: 70px;
+  width: 70px;
+  top: 3px;
+}
+.whychoose-right-card {
+  padding: 10px 0px 2px;
+  top: 0px;
+}
+.whychoose-right-card p {
+  margin: 7px 0 12px;
+}
+
+
+/* special-services-treat-section */
+
+.special-services-treat-section {
+  padding: 60px 0px 30px;
+  height: 100%;
+}
+.special-services-treat-left-content .special-img-content {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+.success-card {
+  display: none !important;
+}
+
+.special-services-treat-section .swiper-button-prev {
+  position: absolute;
+  top: 78% !important;
+  left: 55% !important;
+}
+.special-services-treat-section .swiper-button-next {
+  position: absolute;
+  top: 78% !important;
+  left: 65% !important;
+  z-index: 2;
+}
+
+
+}

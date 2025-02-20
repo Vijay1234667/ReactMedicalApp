@@ -28,11 +28,12 @@ const ServiceProvide = () => {
                                 <div className='more-about-btn mb-3 mb-md-5'>
                                     <a href="/" className='btn'>All Services<span><ArrowOutwardIcon className='fs-5' /></span></a>
                                 </div>
-                                <div>
+                                <div className='text-md-center text-lg-start'>
                                     <img className='img-fluid' src={serviceleftimg} alt="serviceleftimg" />
                                 </div>
                             </div>
                         </Col>
+
                         <Col md={6}>
                             <ul className='p-0'>
                                 <li className='mb-3'  data-aos="zoom-in-up">

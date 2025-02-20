@@ -12,7 +12,7 @@ const MediketAbout = () => {
             <section className='mediket-aboutus-section'>
                 <Container>
                     <Row>
-                        <Col md={4}>
+                        <Col lg={4} md={6}>
                             <div className='mediket-aboutus-left-body heart-rotate-main-body'>
                                 <h6 className='mb-2 mb-md-4'>About Mediket</h6>
                                 <h2 className='mb-2 mb-md-5'>Delivering Quality
@@ -24,7 +24,7 @@ const MediketAbout = () => {
                                <SamePrimaryBtn BtnName="Read more"/>
                             </div>
                         </Col>
-                        <Col md={4}>
+                        <Col lg={4} md={6}>
                             <div className='mediket-aboutus-mid-content border-start ps-3'>
                                 <div className='d-flex  align-items-center mb-4'>
                                     <span className='num me-4'>25+</span>
@@ -50,7 +50,7 @@ const MediketAbout = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col md={4} data-aos="fade-left">
+                        <Col lg={4} md={12} className='text-md-center text-lg-start' data-aos="fade-left">
                             <img className='img-fluid right-img' src={aboutrightimg} alt="aboutleftimg" />
                         </Col>
                     </Row>

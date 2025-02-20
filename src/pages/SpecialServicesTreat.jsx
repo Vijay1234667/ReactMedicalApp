@@ -18,11 +18,10 @@ const SpecialServicesTreat = () => {
         <section className='special-services-treat-section'>
             <Container>
                 <Row>
-                    <Col md={6}>
+                    <Col md={6} sm={12}>
                         <Swiper
                             slidesPerView={2}
                             loop={true}
-                            
                             navigation={true}
                             modules={[Pagination, Navigation]}
                             className="text-center"
