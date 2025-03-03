@@ -7,8 +7,8 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import AlltypeSocialicon from '../Component/AlltypeSocialicon';
 
 // All Images
-import logo from '../assets/images/logo.png'
-
+import logo from '../assets/images/logo.png';
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
@@ -46,7 +46,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-
+                        
                         <Col md={3}>
                             <div className='footer-site-links'>
                                 <h4 className='mb-4'>Site Links</h4>
@@ -55,7 +55,7 @@ const Footer = () => {
                                         Our Services
                                     </li>
                                     <li>
-                                        About us
+                                       <Link to="/mediketabout">About us</Link>
                                     </li>
                                     <li>
                                         Our Team
@@ -93,15 +93,16 @@ const Footer = () => {
                             </div>
                         </Col>
                     </Row>
+
                     <Row className="py-2 py-md-4">
                         <Col md={6} >
                             <p>Copyright © 2024 Mediket. Design By - aonetheme</p>
                         </Col>
                         <Col md={6} className=" text-end d-none d-md-block">
-                            <p>2024 Mediket. Design By - aonetheme</p>
+                            <Link className='text-white' to="/Privacy">Privacy Policy |</Link>
+                            <Link className='text-white ms-2' to="/Terms">Terms And Conditions</Link>
                         </Col>
                     </Row>
-                  
                 </Container>
             </section>
         </>

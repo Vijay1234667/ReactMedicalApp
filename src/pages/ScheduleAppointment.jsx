@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-
 import finddoctor3img from '../assets/images/finddoctor3img.png'
 import darkcalllogo from '../assets/images/darkcalllogo.png'
 
@@ -42,6 +41,7 @@ const ScheduleAppointment = () => {
                 </ul>
               </div>
             </Col>
+
             <Col lg={4} md={6} className=" mb-3 mb-md-3">
               <div className="card  h-100  schedule-appointment-card-body find-doctors-card">
                 <ul>
@@ -62,6 +62,7 @@ const ScheduleAppointment = () => {
                 </ul>
               </div>
             </Col>
+            
             <Col lg={4} md={12} className=" mb-3 mb-md-3">
               <div className="card  h-100  schedule-appointment-card-body appoinment-card">
                 <ul>

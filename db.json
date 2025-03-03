@@ -1,0 +1,40 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "doctorName": "Dr. A",
+      "doctorPrice": "100"
+    },
+    {
+      "id": "2",
+      "doctorName": "Dr. B",
+      "doctorPrice": "600"
+    },
+    {
+      "id": "3",
+      "doctorName": "Dr. C",
+      "doctorPrice": "700"
+    },
+    {
+      "id": "4",
+      "doctorName": "Dr. D",
+      "doctorPrice": "800"
+    },
+    {
+      "id": "5",
+      "doctorName": "Dr. E",
+      "doctorPrice": "100"
+    },
+    {
+      "id": "6",
+      "doctorName": "Dr. F",
+      "doctorPrice": "200"
+    },
+    {
+      "id": "7",
+      "doctorName": "Dr. G",
+      "doctorPrice": "700"
+    }
+  ]
+}
+

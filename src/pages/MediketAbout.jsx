@@ -9,7 +9,7 @@ import SamePrimaryBtn from '../Component/SamePrimaryBtn';
 const MediketAbout = () => {
     return (
         <>
-            <section className='mediket-aboutus-section'>
+            <section className='mediket-aboutus-section '>
                 <Container>
                     <Row>
                         <Col lg={4} md={6}>

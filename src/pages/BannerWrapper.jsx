@@ -7,7 +7,6 @@ import herobounceimg from '../assets/images/herobounceimg.png'
 import heroauthorimg from '../assets/images/heroauthorimg.png'
 import SamePrimaryBtn from '../Component/SamePrimaryBtn';
 
-
 const BannerWrapper = () => {
     return (
         <>

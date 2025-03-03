@@ -12,8 +12,9 @@
 
 html {
   scroll-behavior: smooth;
-}
+  scroll-padding-top: 80px;
 
+}
 body {
   margin: 0;
   padding: 0;
@@ -22,6 +23,7 @@ body {
   background-color: #041c33;
 
 }
+
 
 .container{
   max-width: 1200px;
@@ -128,9 +130,10 @@ p {
   padding: 20px 0px 20px;
   background-color: #041c33;
 }
+
 .navbar-section a {
   color: #fff;
-  margin-right: 10px;
+  margin-right: 26px;
   font-size: 14px;
 }
 
@@ -141,9 +144,7 @@ p {
 .navbar-toggler{
   background-color: #0495ff !important;
 }
-.dropdown-item{
-  color: #000 !important;
-}
+
 
 .header-button a {
   padding: 10px 25px;

@@ -1,8 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 // images
-import contactleftimg from '../assets/images/contactleftimg.png'
-
+import contactleftimg from '../assets/images/contactleftimg.png';
 const AppointmentForm = () => {
     return (
         <>
@@ -14,7 +13,7 @@ const AppointmentForm = () => {
                                 <img className='img-fluid' src={contactleftimg} alt="contactleftimg" />
                             </div>
                         </Col>
-                        <Col md={12} lg={6}  >
+                        <Col md={12} lg={6}>
                             <div className="contact-form-box heart-rotate-main-body">
                                 <div className='mb-3 mb-md-0'>
                                     <h6>Appoinment</h6>
@@ -43,6 +42,7 @@ const AppointmentForm = () => {
                                                 <input type="date" id="appointmentDate" name="appointment_date" placeholder="Appointment Date" required />
                                             </div>
                                         </Col>
+
                                         <Col md={6} lg={6} className="mb-3 mb-md-0">
                                             <div className="form-box">
                                                 <select id="treatments_name" className="form-select" name="treatments_name"
@@ -56,6 +56,7 @@ const AppointmentForm = () => {
                                                 </select>
                                             </div>
                                         </Col>
+                                        
                                         <Col md={6} lg={6} className="mb-3">
                                             <div className="form-box">
                                                 <select id="doctor_name" className="form-select" name="doctor_name"
@@ -68,6 +69,7 @@ const AppointmentForm = () => {
                                                 </select>
                                             </div>
                                         </Col>
+                                        
                                         <Col md={6} lg={12} >
                                             <div className="check_bx mb-3 text-white">
                                                 <input className="form-check-input me-2" type="checkbox" id="terms" required="" />
@@ -78,6 +80,7 @@ const AppointmentForm = () => {
                                                 </button>
                                             </div>
                                         </Col>
+                                        
                                     </div>
                                 </form>
                             </div>

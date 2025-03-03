@@ -10,11 +10,10 @@ import servicetraetcard2 from "../assets/images/servicetraetcard2.png"
 import servicetraetcard3 from "../assets/images/servicetraetcard3.png"
 
 
-
 const ServiceProvide = () => {
     return (
         <>
-            <section className='service-provide-section'>
+            <section className='service-provide-section '>
                 <Container>
                     <Row>
                         <Col md={6}>

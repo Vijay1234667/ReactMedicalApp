@@ -6,11 +6,8 @@ import testimonialleftimg from '../assets/images/testimonialleftimg.png'
 import testiauthor from '../assets/images/testiauthor.png'
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
-
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
-
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -96,8 +93,6 @@ const Testimonals = () => {
                                             </div>
                                         </div>
                                     </SwiperSlide>
-
-
                                 </Swiper>
                             </div>
                         </Col>
