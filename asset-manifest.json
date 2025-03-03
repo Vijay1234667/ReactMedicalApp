@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactMedicalApp/static/css/main.8411944b.css",
-    "main.js": "/ReactMedicalApp/static/js/main.4458c143.js",
+    "main.css": "/ReactMedicalApp/static/css/main.5b8258d1.css",
+    "main.js": "/ReactMedicalApp/static/js/main.e02b25fd.js",
     "static/js/488.4f81ee33.chunk.js": "/ReactMedicalApp/static/js/488.4f81ee33.chunk.js",
     "static/media/herorightfullimg.png": "/ReactMedicalApp/static/media/herorightfullimg.dc9c5fe62a31e9384590.png",
     "static/media/contactleftimg.png": "/ReactMedicalApp/static/media/contactleftimg.25ac5cd562fae37ce64f.png",
@@ -24,12 +24,12 @@
     "static/media/testi-bg.jpg": "/ReactMedicalApp/static/media/testi-bg.4a1b5ce501831167c73e.jpg",
     "static/media/heroheartrotate.png": "/ReactMedicalApp/static/media/heroheartrotate.b541e164ae383d202140.png",
     "index.html": "/ReactMedicalApp/index.html",
-    "main.8411944b.css.map": "/ReactMedicalApp/static/css/main.8411944b.css.map",
-    "main.4458c143.js.map": "/ReactMedicalApp/static/js/main.4458c143.js.map",
+    "main.5b8258d1.css.map": "/ReactMedicalApp/static/css/main.5b8258d1.css.map",
+    "main.e02b25fd.js.map": "/ReactMedicalApp/static/js/main.e02b25fd.js.map",
     "488.4f81ee33.chunk.js.map": "/ReactMedicalApp/static/js/488.4f81ee33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8411944b.css",
-    "static/js/main.4458c143.js"
+    "static/css/main.5b8258d1.css",
+    "static/js/main.e02b25fd.js"
   ]
 }
